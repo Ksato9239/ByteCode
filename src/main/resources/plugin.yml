@@ -1,0 +1,13 @@
+name: Napraw
+main: com.bytecode.napraw.NaprawPlugin
+version: 1.0.0
+api-version: 1.16
+commands:
+  napraw:
+    description: Naprawia ekwipunek za XP.
+    usage: /napraw
+    permission: napraw.use
+permissions:
+  napraw.use:
+    description: Pozwala uzyc komendy /napraw.
+    default: true
